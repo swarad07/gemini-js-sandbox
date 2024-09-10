@@ -1,4 +1,4 @@
-#Steps:
+## Steps:
 
 1. `npm install` for this repo, if building separately, install the SDK `npm install @google/generative-ai`
 2. Create a JS file, import `GoogleGenerativeAI` from `@google/generative-ai`
