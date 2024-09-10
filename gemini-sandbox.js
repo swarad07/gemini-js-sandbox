@@ -6,7 +6,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 /**
  * Initialize the Google Generative AI instance with API key.
  */
-const genAI = new GoogleGenerativeAI('AIzaSyAGXxnpHpaCCPpZPIeOVOctmWIn8AXW0wQ');
+const genAI = new GoogleGenerativeAI(process.env.API_KEY);
 
 /**
  * Get the Gemini 1.5 Flash generative model.
